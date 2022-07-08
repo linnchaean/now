@@ -493,6 +493,8 @@ main{
     }
     .swiper-pagination{
         .swiper-pagination-bullet{
+            position: absolute;
+            right: 10%;
             &.swiper-pagination-bullet-active {
                 background-color: #fff !important;
            }
