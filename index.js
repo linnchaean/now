@@ -1,5 +1,14 @@
+$('video').prop('muted',true);
+
 $('.sound').on('click',function(){
-    $('#muted_video').attr('muted',false);
+
+    if($('video').prop('muted')){
+        $('video').prop('muted', false);
+    }else{
+        $('video').prop('muted',true);
+    }
+
+
     $('.sound span').toggleClass('active');
 });
 
